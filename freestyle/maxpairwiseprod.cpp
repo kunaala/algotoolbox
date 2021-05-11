@@ -7,7 +7,7 @@
 
 long long maxpairprod(const std::vector<int> v)
 {
-    int max=-1; 
+    unsigned int max=1; 
     for(int i=0;i<v.size();i++)
     {
         if(v[i]>=v[max])
@@ -17,7 +17,7 @@ long long maxpairprod(const std::vector<int> v)
         }
     }
     
-    int max2 = -1;
+    unsigned int max2 = 1;
     for(int j=0;j<v.size();j++)
     {
         
